@@ -1,11 +1,11 @@
 const knex = require('knex')({
     client: 'pg',
     connection: {
-        host: 'localhost',
+        host: 'dpg-clnnr0gfvntc73b4imag-a',
         port: 5432,
-        user: 'postgres',
-        password: 'postgres',
-        database: 'market_cubos'
+        user: 'exercicios_backend_deploy_user',
+        password: 'BfsOCZbbPTWE0NeJYXhhl19JWS3ZRQRQ',
+        database: 'exercicios_backend_deploy'
     }
 });
 // const query = (text, param) => {
